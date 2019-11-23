@@ -1,29 +1,103 @@
-body {
-    background-color: teal; 
-    color: #f7f0f0;
-
+* {
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --light: #F9EDED;
+    --light-blue: #337EAA;
+    --sapphire: #1D6768;
+    --dark-blue: #29364F;
+    --dark: #181B26;
+  }
+  
+  body {
+    background-color: var(--light);
+    margin: 0;
+    padding: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 12px;
-}
+  }
+  
+  h1 {
+    
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: teal;
+    text-align: left; 
+    flex-wrap: wrap;
+    padding: 0rem;
+  }
 
-.container {
-    width: 960px;
-    margin: auto;
-}
-
-.box-1 {
-    background-color: I #333333;
-    color: #ffffff;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
-
-    margin-top: 20px;
-    margin: 20px;
-}
-
-.box-1 h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-}
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif
+   
+  }
+  
+  
+  header {
+    width: 100%;
+    background-color: var(--dark-blue);
+  }
+  
+  .header-wrapper {
+    width: 0%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0vh;
+  }
+  
+  .header-wrapper h1 {
+    margin: 0;
+    background-color: var(--sapphire);
+    padding: 20px 15px;
+  }
+  
+  .header-wrapper h1 a {
+    color: var(--light);
+    text-decoration: none;
+    width: 90x;
+    margin: 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  .header-wrapper nav {
+    margin-left: auto;
+    display: flex;
+    flex-wrap: auto;
+    justify-content: center;
+  }
+  
+  .header-wrapper nav a {
+    color: var(--light);
+    padding: 0 15px;
+    font-size: 20px;
+    text-decoration: none;
+    border-right: 2px solid var(--light-blue);
+  }
+  
+  .header-wrapper nav a:last-child {
+    border-right: none;
+  }
+  
+  
+  /* Make it responsive */
+  @media screen and (max-width: 768px) {
+  
+    .header-wrapper {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .header-wrapper h1,
+    .header-wrapper nav {
+      width: 100%;
+    }
+  
+  }
+  
