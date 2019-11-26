@@ -37,12 +37,19 @@
   
   
   header {
-    width: 100%;
+    border-bottom: 5px purple;
     background-color: whitesmoke;
+  }
+
+  .page-wrapper {
+    width: 5px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
   }
   
   .header-wrapper {
-    width: 0%;
+    width: 5px;
     margin: 0 auto;
     display: flex;
  
@@ -57,7 +64,7 @@
   .header-wrapper h1 a {
     color: var(--light);
     text-decoration: none;
-    width: 90x;
+    width: 10x;
  
     
   }
