@@ -47,6 +47,21 @@
   float: left;
 }
   
+.img  {
+  width: 0;
+  padding: 0;
+}
+
+
+
+//Contact Page
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
 
 
 
@@ -64,6 +79,7 @@
 
 
 
+// portfolio
 
 
   
