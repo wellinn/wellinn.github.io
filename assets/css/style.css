@@ -2,13 +2,6 @@
     box-sizing: border-box;
   }
   
-  :root {
-    --light: #F9EDED;
-    --light-blue: #337EAA;
-    --sapphire: #1D6768;
-    --dark-blue: #29364F;
-    --dark: #181B26;
-  }
   
   body {
     background-color: var(--light);
@@ -19,9 +12,9 @@
   
   h1 {
     
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-size: 20px;
-    color: teal;
+    color: rgb(110, 9, 9);
     margin-top: 0 auto;
  
   }
@@ -37,72 +30,22 @@
   
   
   header {
-    border-bottom: 5px purple;
-    background-color: whitesmoke;
+    border-bottom: 0;
+    background-color: rgb(23, 152, 212);
   }
 
-  .page-wrapper {
-    width: 5px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-  }
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
   
-  .header-wrapper {
-    width: 5px;
-    margin: 0 auto;
-    display: flex;
- 
-  }
-  
-  .header-wrapper h1 {
-    margin: 0;
-    background-color: var(--sapphire);
-    padding: 20px 15px;
-  }
-  
-  .header-wrapper h1 a {
-    color: var(--light);
-    text-decoration: none;
-    width: 10x;
- 
-    
-  }
-  
-  .header-wrapper nav {
-    margin-left: auto;
-    display: flex;
-    flex-wrap: auto;
-    justify-content: center;
-  }
-  
-  .header-wrapper nav a {
-    color: var(--light);
-    padding: 0 15px;
-    font-size: 20px;
-    text-decoration: none;
-    border-right: 2px solid var(--light-blue);
-  }
-  
-  .header-wrapper nav a:last-child {
-    border-right: none;
-  }
-  
-  
-  /* Make it responsive */
-  @media screen and (max-width: 768px) {
-  
-    .header-wrapper {
-      width: 100%;
-      text-align: center;
-    }
-  
-    .header-wrapper h1,
-    .header-wrapper nav {
-      width: 100%;
-    }
-  
-  }
+.nav {
+  float: right
+}
+
+.nav ul {
+  float: left;
+}
   
 
 
