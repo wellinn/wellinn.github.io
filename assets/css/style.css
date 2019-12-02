@@ -1,20 +1,7 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  
-  body {
-    background-color: gray
-    margin: 0;
-    padding: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-  
   h1 {
     
-    margin-bottom: 20px;
+    margin-bottom: 0;
     font-size: 20px;
-    color: rgb(110, 9, 9);
     margin-top: 0 auto;
  
   }
@@ -30,15 +17,16 @@
   
   
   header {
-    border-bottom: 10px;
-    background-color: rgb(58, 201, 15);
+    border-bottom: 0px;
+    background-color: Teal;
     margin: 0;
     padding: 0;
+    display: flow-root;
   }
 
 .container {
-  width: 10px;
-  margin: 0 auto;
+  width: 0;
+  margin: 0;
 }
 
 .img  {
@@ -46,37 +34,11 @@
   padding: 0;
 }
 
-
-
-//Contact Page
-
-
-
 body {
   margin: 10px;
   padding: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// portfolio
-
-
-  
 * {
     box-sizing: border-box;
   }
@@ -84,16 +46,7 @@ body {
   title {
       display: none;
   }
-  
 
-
-  :root {
-    --charcoal: #393B4F;
-    --silver: #A8ADBA;
-    --white: #FEFEFF;
-    --light-red: rgb(33, 17, 104);
-    --dark-red: rgb(45, 8, 87);
-  }
   
 html {
     color: -internal-root-color;
@@ -103,8 +56,8 @@ html {
   body {
     margin: 0;  
     padding: 0;
-    background-color: rgb(66, 12, 35)
-    font-family: Georgia, 'Times New Roman', Times, serif
+    background-color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
 * {
@@ -186,4 +139,22 @@ html {
     color: var(--charcoal);
     padding: 10px 5px;
     text-align: center;
+  }
+
+  .Name {
+    display: inline-block;
+  }
+
+  .nav {
+    display: inline-block;
+    float: right;
+  }
+
+  .topSection {
+    width: 50%;
+    margin: auto;
+  }
+
+  .profilePic {
+    float: left;
   }
